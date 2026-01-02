@@ -6,50 +6,90 @@
 
 ### FIX = Bug fix. Not adding a new feature.
 ```bash
+git commit -m "fix: "
+```
+- example
+```bash
 git commit -m "fix: resolve null user error on app startup"
 ```
 
 ### FEAT = Add a new feature. Do not use this for small changes.
+```bash
+git commit -m "feat: "
+```
+- example
 ```bash
 git commit -m "feat: add push notifications using Firebase Cloud Messaging"
 ```
 
 ### BUILD = Changes that affect the build system or dependencies.
 ```bash
+git commit -m "build: "
+```
+- example
+```bash
 git commit -m "build: update Gradle and Android build tools"
 ```
 
 ### CHORE = Routine tasks, cleanup, no impact on features or behavior.
+```bash
+git commit -m "chore: "
+```
+- example
 ```bash
 git commit -m "chore: remove unused assets and clean up project structure"
 ```
 
 ### CI = Changes to CI/CD pipelines.
 ```bash
+git commit -m "ci: "
+```
+- example
+```bash
 git commit -m "ci: add GitHub Actions workflow for Flutter testing"
 ```
 
 ### DOCS = Documentation only. No logic changes.
+```bash
+git commit -m "docs: "
+```
+- example
 ```bash
 git commit -m "docs: update README with Firebase setup instructions"
 ```
 
 ### STYLE = Formatting, spacing, linting, no logic changes.
 ```bash
+git commit -m "style: "
+```
+- example
+```bash
 git commit -m "style: format files and fix lint warnings"
 ```
 
 ### REFACTOR = Code restructuring with no behavior change.
+```bash
+git commit -m "refactor: "
+```
+- example
 ```bash
 git commit -m "refactor: restructure authentication service for better separation of concerns"
 ```
 
 ### PERF = Performance, memory, or execution optimizations.
 ```bash
+git commit -m "perf: "
+```
+- example
+```bash
 git commit -m "perf: reduce widget rebuilds on home screen"
 ```
 
 ### TEST = Add or update tests.
+```bash
+git commit -m "test: "
+```
+- example
 ```bash
 git commit -m "test: add unit tests for notification service"
 ```
